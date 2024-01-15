@@ -2,8 +2,9 @@ library ble_contec;
 
 import 'dart:async';
 import 'dart:io';
+import 'package:ble_contec/permissionRequestManager.dart';
 import 'package:flutter/services.dart';
-import 'package:package/permissionRequestManager.dart';
+// import 'package:package/permissionRequestManager.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:intl/src/intl/date_format.dart';
 import 'package:permission_handler/permission_handler.dart';
