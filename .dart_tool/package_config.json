@@ -242,13 +242,13 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "package",
+      "name": "ble_contec",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-01-15T13:58:45.064101Z",
+  "generated": "2024-01-15T14:08:57.160294Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }

@@ -1,5 +1,5 @@
-name: package
-description: A new Flutter project.
+name: ble_contec
+description: A package for connect ble device with ble_contec.
 version: 0.0.1
 homepage: https://github.com/VirtuousTechlogicMobile/ble_contec.git
 
