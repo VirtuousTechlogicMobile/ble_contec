@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552078399518",
+    "project_id": "bluetoothsleepcare",
+    "storage_bucket": "bluetoothsleepcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552078399518:android:ec8195579848140432b60f",
+        "android_client_info": {
+          "package_name": "com.conteccms.bluetooth_cms50"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlY45k6z4t1CZzf_YTuBC9gkny4ecwVqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
