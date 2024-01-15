@@ -6,7 +6,8 @@ import 'package:flutter/services.dart';
 import 'package:package/permissionRequestManager.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:intl/src/intl/date_format.dart';
-import 'package:permission_handler_platform_interface/permission_handler_platform_interface.dart';
+import 'package:permission_handler/permission_handler.dart';
+
 
 class BluetoothDeviceConnectionAndroid {
   String _tvStatus = "",
