@@ -50,7 +50,7 @@ class BluetoothDeviceConnectionAndroid {
   }
 
   /// connection method channel Android
-  Future<void> _connectMethodChannel(String method) async {
+  Future _connectMethodChannel(String method) async {
     dynamic resultData = "";
     try {
       final result = await platform.invokeMethod<dynamic>(method);
@@ -143,6 +143,11 @@ class BluetoothDeviceConnectionAndroid {
         content: Text("Kindly Grant \"Storage\" Permission from Settings."),
       ));*/
     }).requestForPermissions(_storageStatus);
+  }
+
+  /// checkPermissions
+  Future<String> checkPermissions() async {
+    return await _connectMethodChannel("checkPermissions");
   }
 
   /// START SEARCH

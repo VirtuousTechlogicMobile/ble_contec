@@ -8,7 +8,7 @@ class BluetoothDeviceConnectionIos {
   final List<String> _availableDevicesForName = [];
 
   /// connection Method channel
-  Future<void> _connectMethodChannel(String method, dynamic selectedDeviceName) async {
+  Future _connectMethodChannel(String method, dynamic selectedDeviceName) async {
     dynamic resultData = "";
     final result;
     try {
@@ -51,6 +51,11 @@ class BluetoothDeviceConnectionIos {
         break;
     }
     //});
+  }
+
+  /// checkPermissions
+  Future<String> checkPermissions() async {
+    return await _connectMethodChannel("checkPermissions","");
   }
 
   /// START SEARCH
